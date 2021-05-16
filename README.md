@@ -1,24 +1,10 @@
-# README
+# 뽀바드림
+> 멋쟁이 사자처럼 여름방학 프로젝트
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> 온라인 프린트 테이크아웃 서비스
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 기능 구현
+- 회원가입
+  - 기본 회원가입: devise gem 사용
+  - 메일 본인인증: mailer gem / mailgun 사용
+- 로그인
